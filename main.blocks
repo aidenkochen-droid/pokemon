@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="iB0*{Isqckj*p%j6BGgt">mySprite</variable><variable id="cr)+?M=]h/bQw*)nEtol">pikachu</variable></variables><block type="pxt-on-start" id="3Q:xG-5dV$Kn5nuH.)gg" x="0" y="0"><statement name="HANDLER"><block type="run_image_animation" id="Ze:^WQ~w;n_$KpOyu{.z"><value name="sprite"><block type="variables_get" id=":=E@ZFJ#]57zA?z~ZM%~"><field name="VAR" id="cr)+?M=]h/bQw*)nEtol">pikachu</field></block></value><value name="frames"><shadow type="animation_editor" id="1MABPoDs//oyYqm?@=UT"><field name="frames">[img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . f . . . . . . . . f . . . 
+. . . f . . . . . . . . f . . . 
+. . . 5 . . . . . . . . 5 . . . 
+. . . 5 5 5 5 5 5 5 5 5 5 . . . 
+. . . 5 5 5 5 5 5 5 5 5 5 . . . 
+. . . 5 5 f 1 5 5 1 f 5 5 . . . 
+. . . 5 5 1 f 5 5 f 1 5 5 . . . 
+. . . 2 2 5 5 5 5 5 5 2 2 . 5 5 
+. . . 2 2 5 5 2 2 2 5 2 2 5 5 . 
+. . . . . 5 5 5 5 5 5 5 e 5 . . 
+. . 5 5 5 5 5 5 5 5 5 5 5 5 5 . 
+. . . . . 5 5 5 5 5 5 5 . . . . 
+. . . . . 5 5 . . . 5 5 . . . . 
+. . . . . 5 5 . . . 5 5 . . . . 
+`]</field><data>{"commentRefs":[],"fieldData":{"frames":null}}</data></shadow></value><value name="frameInterval"><shadow type="timePicker" id="Q;?!N)MgDF7sjPwx)%rz"><field name="ms">500</field></shadow></value><value name="loop"><shadow type="toggleOnOff" id="63wJfzeXS32z`g;ojj9*"><field name="on">false</field></shadow></value><next><block type="gamesetbackgroundimage" id="Es},Y^9h1h;U}fRHn|en"><value name="img"><shadow type="background_image_picker" id=".`syHJJjV4v#MztxJV(A"><field name="img">assets.image`sunny day`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><next><block type="music_playable_play" id="~{jLw0M~Nr+5vgWCG)qT"><field name="playbackMode">music.PlaybackMode.InBackground</field><value name="toPlay"><shadow type="soundExpression_createSoundEffect" id=".]PTa]bO45vk7fO,CJA+" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Linear</field><data>{"commentRefs":[],"fieldData":{"waveShape":"{\"duration\":500,\"startFrequency\":1500.6806604191702,\"endFrequency\":5000,\"startVolume\":255,\"endVolume\":255,\"wave\":\"sine\",\"interpolation\":\"linear\",\"effect\":\"none\"}"}}</data><value name="startFrequency"><shadow type="math_number_minmax" id="@LA~XmN9rb`*o@AZ^a;h"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">1501</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id="jB;@f)tvGAPsmo)2sdj8"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">5000</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="@y#swQl#zq]-r3j6R5/1"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">500</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="A#?{99s4}I+^IiW2-`yu"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="B8rwco;Is-rYPB@~]L[S"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></shadow></value></block></next></block></next></block></statement></block></xml>
